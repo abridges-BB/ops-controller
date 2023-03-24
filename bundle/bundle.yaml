@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "abridges-BB-ops-controller"
 description: "CloudBees CI configuration bundle for the abridges-BB ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/abridges-bb/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
